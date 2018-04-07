@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_point_red.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\shape_point_red.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_guide_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_guide_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_text_color_indicator.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable\\vpi__tab_text_color_indicator.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_setting_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_tab_setting_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_home_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_tab_home_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_text_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_tab_text_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_smart_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_tab_smart_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_news_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_tab_news_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\text_menu_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\text_menu_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_guide_text_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_guide_text_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_point_gray.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\shape_point_gray.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_menu_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_menu_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_gov_selector.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable\\btn_tab_gov_selector.xml"
+    }
+]

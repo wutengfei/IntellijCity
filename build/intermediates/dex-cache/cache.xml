@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\gson-2.3.1_3d67bc6296728dce11d45e3fe02a4d0f0bf336e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\slidingMenuLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8355618cb7312b649da20cf4c4232dc411aa314b">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\IntelligentCity-slidingMenuLibrary-unspecified_313ce41b11b16e8145b6b3c7256fbfaea695e753.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\viewPagerIndicatorLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fa0b47724a1d41777a5e7ccb0a9243e907fa9c82">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\IntelligentCity-viewPagerIndicatorLibrary-unspecified_d47a512881994618314658e9ef575d5ec61bd1b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\xUtilsLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7392606315a993266c30ee4938f1b671520e98be">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\IntelligentCity-xUtilsLibrary-unspecified_20c45a9037921ebbf9b4e6e2c1e25cc1b951a3fd.jar" />
+    </item>
+
+</items>

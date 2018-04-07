@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    }
+]

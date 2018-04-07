@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\color\\vpi__dark_theme.xml"
+    }
+]

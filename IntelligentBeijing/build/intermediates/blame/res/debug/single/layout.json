@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\list_header_topnews.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\list_header_topnews.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\base_pager.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\base_pager.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\tab_detail_pager.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\tab_detail_pager.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_header.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\news_menu_detail.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\news_menu_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\left_menu.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\left_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\list_menu_item.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\list_menu_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_left_menu.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\fragment_left_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\slidingMenuLibrary\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\list_news_item.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\list_news_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_content.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\fragment_content.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\activity_splash.xml"
+    }
+]

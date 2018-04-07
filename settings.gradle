@@ -1,0 +1,4 @@
+include ':slidingMenuLibrary'
+include ':viewPagerIndicatorLibrary'
+include ':xUtilsLibrary'
+include ':IntelligentBeijing'
