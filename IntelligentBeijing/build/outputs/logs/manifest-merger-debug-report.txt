@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml
@@ -37,7 +37,7 @@ ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidM
 	android:name
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:14:5-33:19
+ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:14:5-36:19
 MERGED from [IntelligentCity:xUtilsLibrary:unspecified] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\xUtilsLibrary\unspecified\AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:17:9-41
@@ -75,3 +75,9 @@ ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidM
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:32:13-63
 	android:name
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:31:13-41
+activity#com.itheima.zhbj52.NewsDetailActivity
+ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:33:9-35:66
+	android:theme
+		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:35:13-63
+	android:name
+		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:34:13-47

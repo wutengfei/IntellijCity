@@ -30,6 +30,9 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.PageIndicatorDefaults" />
+        <activity
+            android:name=".NewsDetailActivity"
+            android:theme="@style/Theme.PageIndicatorDefaults" />
     </application>
 
 </manifest>

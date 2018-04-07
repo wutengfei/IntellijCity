@@ -3,11 +3,16 @@ package com.itheima.zhbj52.base;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Handler;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
@@ -15,12 +20,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.itheima.zhbj52.NewsDetailActivity;
 import com.itheima.zhbj52.R;
 import com.itheima.zhbj52.domain.NewsData.NewsTabData;
 import com.itheima.zhbj52.domain.TabData;
 import com.itheima.zhbj52.domain.TabData.TabNewsData;
 import com.itheima.zhbj52.domain.TabData.TopNewsData;
 import com.itheima.zhbj52.global.GlobalContants;
+import com.itheima.zhbj52.utils.PrefUtils;
 import com.itheima.zhbj52.view.RefreshListView;
 import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.HttpUtils;
@@ -34,9 +41,9 @@ import com.viewpagerindicator.CirclePageIndicator;
 
 /**
  * 页签详情页
- * 
+ *
  * @author Kevin
- * 
+ *
  */
 public class TabDetailPager extends BaseMenuDetailPager implements
 		OnPageChangeListener {
@@ -61,6 +68,9 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 	private RefreshListView lvList;// 新闻列表
 	private ArrayList<TabNewsData> mNewsList; // 新闻数据集合
 	private NewsAdapter mNewsAdapter;
+	private String mMoreUrl;// 更多页面的地址
+
+	private Handler mHandler;
 
 	public TabDetailPager(Activity activity, NewsTabData newsTabData) {
 		super(activity);
@@ -80,9 +90,61 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 
 		// 将头条新闻以头布局的形式加给listview
 		lvList.addHeaderView(headerView);
+
+		// 设置下拉刷新监听
+		lvList.setOnRefreshListener(new RefreshListView.OnRefreshListener() {
+
+			@Override
+			public void onRefresh() {
+				getDataFromServer();
+			}
+
+			@Override
+			public void onLoadMore() {
+				if (mMoreUrl != null) {
+					getMoreDataFromServer();
+				} else {
+					Toast.makeText(mActivity, "最后一页了", Toast.LENGTH_SHORT)
+							.show();
+					lvList.onRefreshComplete(false);// 收起加载更多的布局
+				}
+			}
+		});
+		lvList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+									int position, long id) {
+				System.out.println("被点击:" + position);
+
+				// 在本地记录已读状态
+				String ids = PrefUtils.getString(mActivity, "read_ids", "");
+				String readId = mNewsList.get(position).id;
+				if (!ids.contains(readId)) {
+					ids = ids + readId + ",";
+					PrefUtils.setString(mActivity, "read_ids", ids);
+				}
+
+				mNewsAdapter.notifyDataSetChanged();
+				changeReadState(view);// 实现局部界面刷新, 这个view就是被点击的item布局对象
+
+				// 跳转新闻详情页
+				Intent intent = new Intent();
+				intent.setClass(mActivity, NewsDetailActivity.class);
+				intent.putExtra("url", mNewsList.get(position).url);
+				mActivity.startActivity(intent);
+			}
+		});
+
 		return view;
 	}
-
+	/**
+	 * 改变已读新闻的颜色
+	 */
+	private void changeReadState(View view) {
+		TextView tvTitle = (TextView) view.findViewById(R.id.tv_title);
+		tvTitle.setTextColor(Color.GRAY);
+	}
 	@Override
 	public void initData() {
 		getDataFromServer();
@@ -97,22 +159,59 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 				String result = (String) responseInfo.result;
 				System.out.println("页签详情页返回结果:" + result);
 
-				parseData(result);
+				parseData(result,false);
+
+				lvList.onRefreshComplete(true);
 			}
 
 			@Override
 			public void onFailure(HttpException error, String msg) {
 				Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT).show();
 				error.printStackTrace();
+
+				lvList.onRefreshComplete(false);
+			}
+		});
+	}
+	/**
+	 * 加载下一页数据
+	 */
+	private void getMoreDataFromServer() {
+		HttpUtils utils = new HttpUtils();
+		utils.send(HttpMethod.GET, mMoreUrl, new RequestCallBack<String>() {
+
+			@Override
+			public void onSuccess(ResponseInfo<String> responseInfo) {
+				String result = (String) responseInfo.result;
+
+				parseData(result, true);
+
+				lvList.onRefreshComplete(true);
+			}
+
+			@Override
+			public void onFailure(HttpException error, String msg) {
+				Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT).show();
+				error.printStackTrace();
+				lvList.onRefreshComplete(false);
 			}
 		});
 	}
 
-	protected void parseData(String result) {
+	protected void parseData(String result, boolean isMore) {
 		Gson gson = new Gson();
 		mTabDetailData = gson.fromJson(result, TabData.class);
 		System.out.println("页签详情解析:" + mTabDetailData);
 
+		// 处理下一页链接
+		String more = mTabDetailData.data.more;
+		if (!TextUtils.isEmpty(more)) {
+			mMoreUrl = GlobalContants.SERVER_URL + more;
+		} else {
+			mMoreUrl = null;
+		}
+
+		if (!isMore) {
 		mTopNewsList = mTabDetailData.data.topnews;
 
 		mNewsList = mTabDetailData.data.news;
@@ -132,13 +231,18 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 			mNewsAdapter = new NewsAdapter();
 			lvList.setAdapter(mNewsAdapter);
 		}
+		} else {// 如果是加载下一页,需要将数据追加给原来的集合
+			ArrayList<TabNewsData> news = mTabDetailData.data.news;
+			mNewsList.addAll(news);
+			mNewsAdapter.notifyDataSetChanged();
+		}
 	}
 
 	/**
 	 * 头条新闻适配器
-	 * 
+	 *
 	 * @author Kevin
-	 * 
+	 *
 	 */
 	class TopNewsAdapter extends PagerAdapter {
 
@@ -168,7 +272,7 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 			utils.display(image, topNewsData.topimage);// 传递imagView对象和图片地址
 
 			container.addView(image);
-			
+
 			System.out.println("instantiateItem....." + position);
 			return image;
 		}
@@ -181,9 +285,9 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 
 	/**
 	 * 新闻列表的适配器
-	 * 
+	 *
 	 * @author Kevin
-	 * 
+	 *
 	 */
 	class NewsAdapter extends BaseAdapter {
 
