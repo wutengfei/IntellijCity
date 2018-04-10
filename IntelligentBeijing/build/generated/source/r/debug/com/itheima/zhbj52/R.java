@@ -452,41 +452,42 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int home_press=0x7f020015;
         public static final int ic_launcher=0x7f020016;
         public static final int icon_150=0x7f020017;
-        public static final int icon_pic_grid_type=0x7f020018;
-        public static final int icon_pic_list_type=0x7f020019;
-        public static final int icon_share=0x7f02001a;
-        public static final int icon_textsize=0x7f02001b;
-        public static final int image_demo=0x7f02001c;
-        public static final int img_menu=0x7f02001d;
-        public static final int menu_arr_normal=0x7f02001e;
-        public static final int menu_arr_select=0x7f02001f;
-        public static final int news_cate_arr=0x7f020020;
-        public static final int news_pic_default=0x7f020021;
-        public static final int news_tab_item_bg_select=0x7f020022;
-        public static final int newscenter=0x7f020023;
-        public static final int newscenter_press=0x7f020024;
-        public static final int pic_item_list_default=0x7f020025;
-        public static final int pic_list_item_bg=0x7f020026;
-        public static final int setting=0x7f020027;
-        public static final int setting_press=0x7f020028;
-        public static final int shape_point_gray=0x7f020029;
-        public static final int shape_point_red=0x7f02002a;
-        public static final int smartservice=0x7f02002b;
-        public static final int smartservice_press=0x7f02002c;
-        public static final int splash_bg_newyear=0x7f02002d;
-        public static final int splash_horse_newyear=0x7f02002e;
-        public static final int ssdk_oks_ptr_ptr=0x7f02002f;
-        public static final int text_menu_selector=0x7f020030;
-        public static final int title_red_bg=0x7f020031;
-        public static final int topnews_item_default=0x7f020032;
-        public static final int vpi__tab_indicator=0x7f020033;
-        public static final int vpi__tab_selected_focused_holo=0x7f020034;
-        public static final int vpi__tab_selected_holo=0x7f020035;
-        public static final int vpi__tab_selected_pressed_holo=0x7f020036;
-        public static final int vpi__tab_text_color_indicator=0x7f020037;
-        public static final int vpi__tab_unselected_focused_holo=0x7f020038;
-        public static final int vpi__tab_unselected_holo=0x7f020039;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f02003a;
+        public static final int icon_logo=0x7f020018;
+        public static final int icon_pic_grid_type=0x7f020019;
+        public static final int icon_pic_list_type=0x7f02001a;
+        public static final int icon_share=0x7f02001b;
+        public static final int icon_textsize=0x7f02001c;
+        public static final int image_demo=0x7f02001d;
+        public static final int img_menu=0x7f02001e;
+        public static final int menu_arr_normal=0x7f02001f;
+        public static final int menu_arr_select=0x7f020020;
+        public static final int news_cate_arr=0x7f020021;
+        public static final int news_pic_default=0x7f020022;
+        public static final int news_tab_item_bg_select=0x7f020023;
+        public static final int newscenter=0x7f020024;
+        public static final int newscenter_press=0x7f020025;
+        public static final int pic_item_list_default=0x7f020026;
+        public static final int pic_list_item_bg=0x7f020027;
+        public static final int setting=0x7f020028;
+        public static final int setting_press=0x7f020029;
+        public static final int shape_point_gray=0x7f02002a;
+        public static final int shape_point_red=0x7f02002b;
+        public static final int smartservice=0x7f02002c;
+        public static final int smartservice_press=0x7f02002d;
+        public static final int splash_bg_newyear=0x7f02002e;
+        public static final int splash_horse_newyear=0x7f02002f;
+        public static final int ssdk_oks_ptr_ptr=0x7f020030;
+        public static final int text_menu_selector=0x7f020031;
+        public static final int title_red_bg=0x7f020032;
+        public static final int topnews_item_default=0x7f020033;
+        public static final int vpi__tab_indicator=0x7f020034;
+        public static final int vpi__tab_selected_focused_holo=0x7f020035;
+        public static final int vpi__tab_selected_holo=0x7f020036;
+        public static final int vpi__tab_selected_pressed_holo=0x7f020037;
+        public static final int vpi__tab_text_color_indicator=0x7f020038;
+        public static final int vpi__tab_unselected_focused_holo=0x7f020039;
+        public static final int vpi__tab_unselected_holo=0x7f02003a;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f02003b;
     }
     public static final class id {
         public static final int action_settings=0x7f08002b;
@@ -570,16 +571,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-
-        
          */
         public static final int AppBaseTheme=0x7f050000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f050001;
         public static final int BottomTabStyle=0x7f050002;
         public static final int TextAppearance_TabPageIndicator=0x7f050003;

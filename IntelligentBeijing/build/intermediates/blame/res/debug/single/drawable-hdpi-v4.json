@@ -20,6 +20,10 @@
         "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\splash_bg_newyear.jpg"
     },
     {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_logo.jpg",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\icon_logo.jpg"
+    },
+    {
         "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
         "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\exploded-aar\\IntelligentCity\\viewPagerIndicatorLibrary\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
     },

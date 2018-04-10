@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.graphics.Color;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,6 +21,7 @@ import com.itheima.zhbj52.domain.NewsData;
 import com.itheima.zhbj52.domain.NewsData.NewsMenuData;
 import com.itheima.zhbj52.fragment.LeftMenuFragment;
 import com.itheima.zhbj52.global.GlobalContants;
+import com.itheima.zhbj52.utils.CacheUtils;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
@@ -47,6 +49,11 @@ public class NewsCenterPager extends BasePager {
 
 		tvTitle.setText("新闻");
 		setSlidingMenuEnable(true);// 打开侧边栏
+		String cache = CacheUtils.getCache(GlobalContants.CATEGORIES_URL,
+				mActivity);
+		if (!TextUtils.isEmpty(cache)) {// 如果缓存存在,直接解析数据, 无需访问网路
+			parseData(cache);
+		}
 
 		getDataFromServer();
 	}
@@ -68,13 +75,17 @@ public class NewsCenterPager extends BasePager {
 						System.out.println("返回结果:" + result);
 
 						parseData(result);
+
+						// 设置缓存
+						CacheUtils.setCache(GlobalContants.CATEGORIES_URL,
+								result, mActivity);
 					}
 
 					// 访问失败, 在主线程运行
 					@Override
 					public void onFailure(HttpException error, String msg) {
-						Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT)
-								.show();
+					//	Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT)
+							//	.show();
 						error.printStackTrace();
 					}
 

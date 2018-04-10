@@ -27,6 +27,7 @@ import com.itheima.zhbj52.domain.TabData;
 import com.itheima.zhbj52.domain.TabData.TabNewsData;
 import com.itheima.zhbj52.domain.TabData.TopNewsData;
 import com.itheima.zhbj52.global.GlobalContants;
+import com.itheima.zhbj52.utils.CacheUtils;
 import com.itheima.zhbj52.utils.PrefUtils;
 import com.itheima.zhbj52.view.RefreshListView;
 import com.lidroid.xutils.BitmapUtils;
@@ -147,6 +148,11 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 	}
 	@Override
 	public void initData() {
+		String cache = CacheUtils.getCache(mUrl, mActivity);
+
+		if (!TextUtils.isEmpty(cache)) {
+			parseData(cache, false);
+		}
 		getDataFromServer();
 	}
 
@@ -162,11 +168,13 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 				parseData(result,false);
 
 				lvList.onRefreshComplete(true);
+				// 设置缓存
+				CacheUtils.setCache(mUrl, result, mActivity);
 			}
 
 			@Override
 			public void onFailure(HttpException error, String msg) {
-				Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT).show();
+				//Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT).show();
 				error.printStackTrace();
 
 				lvList.onRefreshComplete(false);
@@ -191,7 +199,7 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 
 			@Override
 			public void onFailure(HttpException error, String msg) {
-				Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT).show();
+				//Toast.makeText(mActivity, msg, Toast.LENGTH_SHORT).show();
 				error.printStackTrace();
 				lvList.onRefreshComplete(false);
 			}

@@ -44,7 +44,7 @@ MERGED from [IntelligentCity:xUtilsLibrary:unspecified] E:\Android\heima\Intelli
 	android:allowBackup
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:16:9-42
+		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:16:9-43
 	android:theme
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:18:9-40
 activity#com.itheima.zhbj52.SplashActivity
