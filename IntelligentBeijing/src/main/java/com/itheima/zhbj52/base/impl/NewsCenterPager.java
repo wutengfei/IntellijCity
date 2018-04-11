@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.text.TextUtils;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -112,12 +113,11 @@ public class NewsCenterPager extends BasePager {
 		mPagers.add(new NewsMenuDetailPager(mActivity,
 				mNewsData.data.get(0).children));
 		mPagers.add(new TopicMenuDetailPager(mActivity));
-		mPagers.add(new PhotoMenuDetailPager(mActivity));
+		mPagers.add(new PhotoMenuDetailPager(mActivity, btnPhoto));
 		mPagers.add(new InteractMenuDetailPager(mActivity));
 
 		setCurrentMenuDetailPager(0);// 设置菜单详情页-新闻为默认当前页
 	}
-
 	/**
 	 * 设置当前菜单详情页
 	 */
@@ -131,6 +131,12 @@ public class NewsCenterPager extends BasePager {
 		tvTitle.setText(menuData.title);
 
 		pager.initData();// 初始化当前页面的数据
+
+		if (pager instanceof PhotoMenuDetailPager) {
+			btnPhoto.setVisibility(View.VISIBLE);
+		} else {
+			btnPhoto.setVisibility(View.GONE);
+		}
 	}
 
 }

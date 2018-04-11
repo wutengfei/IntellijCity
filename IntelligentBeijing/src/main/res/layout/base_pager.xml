@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,8 +28,18 @@
             android:layout_marginLeft="5dp"
             android:background="@null"
             android:src="@drawable/img_menu" />
-    </RelativeLayout>
 
+        <ImageButton
+            android:id="@+id/btn_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/icon_pic_grid_type"
+            android:visibility="gone" />
+    </RelativeLayout>
     <FrameLayout
         android:id="@+id/fl_content"
         android:layout_width="match_parent"

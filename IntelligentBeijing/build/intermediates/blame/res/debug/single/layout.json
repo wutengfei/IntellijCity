@@ -24,6 +24,14 @@
         "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\refresh_header.xml"
     },
     {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\menu_photo_pager.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\menu_photo_pager.xml"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\list_photo_item.xml",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\list_photo_item.xml"
+    },
+    {
         "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\layout\\news_menu_detail.xml",
         "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\layout\\news_menu_detail.xml"
     },
