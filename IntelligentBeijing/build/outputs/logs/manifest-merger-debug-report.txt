@@ -20,6 +20,7 @@ ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidM
 MERGED from [IntelligentCity:slidingMenuLibrary:unspecified] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\slidingMenuLibrary\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [IntelligentCity:xUtilsLibrary:unspecified] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\xUtilsLibrary\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [IntelligentCity:viewPagerIndicatorLibrary:unspecified] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\viewPagerIndicatorLibrary\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:support-v4:23.0.0] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml
@@ -39,6 +40,7 @@ ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidM
 application
 ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:14:5-36:19
 MERGED from [IntelligentCity:xUtilsLibrary:unspecified] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\IntelligentCity\xUtilsLibrary\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:23.0.0] E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from E:\Android\heima\IntelligentCity\IntelligentBeijing\src\main\AndroidManifest.xml:17:9-41
 	android:allowBackup

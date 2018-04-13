@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b.jar" />
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_161b9040a226db13d86c243ea6104f5e3e15aa3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_ad4c7ad9eb1add88ac146a92ee9f92b23f65fdac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\Android\heima\IntelligentCity\IntelligentBeijing\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_08b16856724fa3fb4e27eb337c3e2a21cf114629.jar" />
     </item>
     <item
         is-multidex="false"
