@@ -18,6 +18,7 @@ import com.itheima.zhbj52.domain.PhotosData;
 import com.itheima.zhbj52.global.GlobalContants;
 import com.itheima.zhbj52.utils.CacheUtils;
 import com.itheima.zhbj52.utils.bitmap.MyBitmapUtils;
+import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
@@ -68,11 +69,11 @@ public class PhotoMenuDetailPager extends BaseMenuDetailPager {
         String cache = CacheUtils
                 .getCache(GlobalContants.PHOTOS_URL, mActivity);
 
-        if (!TextUtils.isEmpty(cache)) {
-
+        if (!TextUtils.isEmpty(cache)) {//有缓存先显示缓存
+            parseData(cache);
         }
 
-        getDataFromServer();
+        getDataFromServer();//从服务器获取最新数据
     }
 
     private void getDataFromServer() {
@@ -113,14 +114,14 @@ public class PhotoMenuDetailPager extends BaseMenuDetailPager {
 
     class PhotoAdapter extends BaseAdapter {
 
-        //private BitmapUtils utils;
+        private BitmapUtils utils;
 
-        private MyBitmapUtils utils;
+//         private MyBitmapUtils utils;
 
         public PhotoAdapter() {
-            //utils = new BitmapUtils(mActivity);
-            //utils.configDefaultLoadingImage(R.drawable.news_pic_default);
-            utils = new MyBitmapUtils();
+            utils = new BitmapUtils(mActivity);
+            utils.configDefaultLoadingImage(R.drawable.news_pic_default);
+//              utils = new MyBitmapUtils();
         }
 
         @Override

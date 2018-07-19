@@ -1,19 +1,19 @@
 [
     {
-        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_share.png",
-        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\icon_share.png"
-    },
-    {
         "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pic_item_list_default.png",
         "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\pic_item_list_default.png"
     },
     {
-        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_share.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\icon_share.png"
     },
     {
         "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title_red_bg.png",
         "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\title_red_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Android\\heima\\IntelligentCity\\IntelligentBeijing\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\govaffairs_press.png",

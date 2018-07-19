@@ -3,6 +3,7 @@ package com.itheima.zhbj52;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.ViewPager;
 import android.view.Window;
 
 import com.itheima.zhbj52.fragment.ContentFragment;

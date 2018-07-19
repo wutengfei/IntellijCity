@@ -30,6 +30,7 @@ import com.itheima.zhbj52.domain.TabData.TopNewsData;
 import com.itheima.zhbj52.global.GlobalContants;
 import com.itheima.zhbj52.utils.CacheUtils;
 import com.itheima.zhbj52.utils.PrefUtils;
+import com.itheima.zhbj52.utils.bitmap.MyBitmapUtils;
 import com.itheima.zhbj52.view.RefreshListView;
 import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.HttpUtils;
@@ -367,9 +368,12 @@ public class TabDetailPager extends BaseMenuDetailPager implements
 
         private BitmapUtils utils;
 
+//        private MyBitmapUtils utils;
+
         public NewsAdapter() {
             utils = new BitmapUtils(mActivity);
             utils.configDefaultLoadingImage(R.drawable.pic_item_list_default);
+//            utils = new MyBitmapUtils();
         }
 
         @Override
